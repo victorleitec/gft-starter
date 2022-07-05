@@ -1,6 +1,10 @@
 package quarto;
 
 public class Normal extends Ingresso {
+    public static void main(String[] args) {
+        Normal normal = new Normal();
+        normal.imprimeValor(0);
+    }
 
     @Override
     public void imprimeValor(double valorAdicional) {
