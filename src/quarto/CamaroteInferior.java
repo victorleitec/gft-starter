@@ -3,10 +3,8 @@ package quarto;
 public class CamaroteInferior extends Vip{
     public static void main(String[] args) {
         CamaroteInferior camaroteInferior = new CamaroteInferior();
-        camaroteInferior.imprimeValor(100);
-        camaroteInferior.imprimeLocalizacao();
+        camaroteInferior.imprimeValor(50);
     }
-
     private String localizacao = "Camarote Inferior";
 
     public void imprimeLocalizacao() {

@@ -2,11 +2,11 @@ package quarto;
 
 public class Vip extends Ingresso {
 
-    private double valorAdicional;
+    private double valorAdicional = 100;
 
     @Override
-    public void imprimeValor(double valorAdicional) {
-        super.imprimeValor(valorAdicional);
+    public void imprimeValor(double valorAdicionalTipo) {
+        super.imprimeValor(valorAdicional + valorAdicionalTipo);
     }
 
     @Override

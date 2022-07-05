@@ -4,9 +4,7 @@ public class CamaroteSuperior extends Vip {
     public static void main(String[] args) {
         CamaroteSuperior camaroteSuperior = new CamaroteSuperior();
         camaroteSuperior.imprimeValor(100);
-        camaroteSuperior.imprimeLocalizacao();
     }
-
     private String localizacao = "Camarote Superior";
 
     @Override
